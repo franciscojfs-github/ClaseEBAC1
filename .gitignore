@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/ProyectoInicialEBAC/[Ll]ibrary/
-/ProyectoInicialEBAC/[Tt]emp/
-/ProyectoInicialEBAC/[Oo]bj/
-/ProyectoInicialEBAC/[Bb]uild/
-/ProyectoInicialEBAC/[Bb]uilds/
-/ProyectoInicialEBAC/[Ll]ogs/
-/ProyectoInicialEBAC/[Uu]ser[Ss]ettings/
+/MiPrimerProyecto/[Ll]ibrary/
+/MiPrimerProyecto/[Tt]emp/
+/MiPrimerProyecto/[Oo]bj/
+/MiPrimerProyecto/[Bb]uild/
+/MiPrimerProyecto/[Bb]uilds/
+/MiPrimerProyecto/[Ll]ogs/
+/MiPrimerProyecto/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
