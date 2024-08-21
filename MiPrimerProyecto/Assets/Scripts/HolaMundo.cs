@@ -6,6 +6,11 @@ public class HolaMundo : MonoBehaviour
 {
     //int x;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        Debug.Log("Hola desde Awake");
+    }
     void Start()
     {
         //x = 0;
@@ -13,6 +18,7 @@ public class HolaMundo : MonoBehaviour
      
         Debug.LogWarning("Algo salio medianamente mal");
         Debug.LogError("Algo salio muy mal");
+        Debug.Log("Hola desde Start");
     }
 
     // Update is called once per frame
