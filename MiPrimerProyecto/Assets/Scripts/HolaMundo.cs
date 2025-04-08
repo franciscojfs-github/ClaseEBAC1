@@ -26,7 +26,7 @@ public class HolaMundo : MonoBehaviour
     {
         //x = x + 1;
         //Debug.Log(x);
-        Debug.Log("Hola desde Update");
+        //Debug.Log("Hola desde Update");
     }
     private void FixedUpdate()
     {

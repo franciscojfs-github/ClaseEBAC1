@@ -12,6 +12,7 @@ public class Componente2 : MonoBehaviour
     void Start()
     {
         Debug.Log(Componente1.miObjeto.name);
+        //Se modifico el Scrip Execution Order y asi Component 1,2 y 3 pueden estar en Start
     }
 
     // Update is called once per frame
