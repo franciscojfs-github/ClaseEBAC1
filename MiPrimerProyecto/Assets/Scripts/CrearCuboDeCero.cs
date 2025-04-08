@@ -52,6 +52,7 @@ public class CrearCuboDeCero : MonoBehaviour
         meshRendererMaterial.color = Color.white;
         objToSpawn.transform.position = new Vector3(2, 11, 2);
 
+
     }
 
     // Update is called once per frame
