@@ -50,7 +50,8 @@ public class CrearCuboDeCero : MonoBehaviour
         objToSpawn.AddComponent<MeshRenderer>();
         var meshRendererMaterial = objToSpawn.GetComponent<MeshRenderer>().material;
         meshRendererMaterial.color = Color.white;
-        objToSpawn.transform.position = new Vector3(2,8,2);
+        objToSpawn.transform.position = new Vector3(2, 11, 2);
+
 
     }
 
