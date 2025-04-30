@@ -993,7 +993,7 @@ PrefabInstance:
       objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 4136455186590293561, guid: 47961d5c438eb274c902d0160dc231ff, type: 3}
       propertyPath: m_Name
-      value: EsferaTarea (1)
+      value: GameObject4
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -7202030990372765620, guid: 47961d5c438eb274c902d0160dc231ff, type: 3}
@@ -1022,7 +1022,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VarBool4: 0
-  CuboTareaColor: {fileID: 515140092}
 --- !u!1001 &887592731351563806
 PrefabInstance:
   m_ObjectHideFlags: 0
