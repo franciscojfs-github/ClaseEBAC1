@@ -7,7 +7,7 @@ public class ScriptGameObject5 : MonoBehaviour
 {
     public GameObject GameObjectNo5;
     public EsferaTareaColor GO3;
-    public EsferaTareaColor1 GO4;
+    public ScriptGameObject4 GO4;
     bool VarBool5;
 
     private void Awake()
@@ -17,11 +17,13 @@ public class ScriptGameObject5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject GameObject3 = GameObject.Find("EsferaTarea");
-        GameObject GameObject4 = GameObject.Find("EsferaTarea (1)");
+        //GameObject GameObject3 = GameObject.Find("EsferaTarea");
+        GameObject GameObject4 = GameObject.Find("GameObject4");
 
-        GO3 = GameObject3.GetComponent<EsferaTareaColor>();
-        GO4 = GameObject4.GetComponent<EsferaTareaColor1>();
+        //GO3 = GameObject3.GetComponent<EsferaTareaColor>();
+        GO4 = GameObject4.GetComponent<ScriptGameObject4>();
+
+        GO3 = GameObject.Find("EsferaTarea").GetComponent<EsferaTareaColor>();  //Otro metodo es comentar esta linea y seleccionar el script/GO desde el Inspector GUI en Unity
     }
 
     private void FixedUpdate()
