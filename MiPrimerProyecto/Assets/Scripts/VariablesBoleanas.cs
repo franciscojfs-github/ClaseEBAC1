@@ -53,8 +53,8 @@ public class VariablesBoleanas : MonoBehaviour
         valor1 = Random.Range(limiteInferior, limiteSuperior);
         Debug.Log(valor1);
 
-        /*
-        switch(valor1)
+
+        switch (valor1)
         {
             case (int)SeleccionColor.rojo when variable2 == true:  //doble condicional, si cae switch 0 (rojo) se iria a default porque no se cumple la condicion de variable2
                 Debug.Log("el color seleccionado es rojo");
@@ -75,7 +75,7 @@ public class VariablesBoleanas : MonoBehaviour
                 Debug.Log("Ese no es un color valido");
                 break;
         }
-        */
+
 
         //Seccion de IF con Else puede ser reemplazada por una linea de codigo con String
         //if (valor1 >= 0)
