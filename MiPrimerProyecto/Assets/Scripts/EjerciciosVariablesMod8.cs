@@ -70,7 +70,7 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
         string oracion = "Hola desde Tarea Modulo 8";
         string oracionCharPar = "";
         for (int i = 0; i < oracion.Length; i += 2)     //i va en incrementos de 2 en 2, tomando solo los pares, y guardando el caracter par de cada for en oracionCharPar
-        {
+        {                                               //no es la mejor opcion porque si fuera un string de 9 caracteres puede terminar en overflow
             oracionCharPar += oracion[i];
         }
         Debug.Log("Los caracteres en posiciones pares son: " + oracionCharPar);
