@@ -61,7 +61,7 @@ public class ScripMod9Ciclos : MonoBehaviour
                 Debug.Log(miArregloJagged[x][y]);
             }
         }
-        
+         
 
         int[] miArreglo2 = new int[5];     //new instancia en memoria. en cuanto a su tamano no se puede cambiar a menos que se vuelva a declarar
         miArreglo2 = new int[12];            //sin esto no le podria asignar mas de 5 valores. Al hacer el new se esta reinicializando vacio de 7 posiciones y se borran los previos 5 elementos
@@ -78,7 +78,7 @@ public class ScripMod9Ciclos : MonoBehaviour
         {
             Debug.Log(i);
         }
-        foreach (string dia  in diasSemana2)        //guarda en el valor "dia" cada string en diaSemana2
+        foreach (string dia in diasSemana2)        //guarda en el valor "dia" cada string en diaSemana2
         {
             Debug.Log(dia);
         }
